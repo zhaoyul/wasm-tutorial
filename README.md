@@ -17,6 +17,18 @@ should grow, and give future lessons a consistent structure.
 If you expected runnable code and only found this README, that is the current
 state of the project rather than a local setup mistake.
 
+## What Exists Today
+
+The current repository contents are documentation-only:
+
+- `README.md`: the top-level orientation and contribution contract.
+- `docs/lesson-template.md`: the recommended structure for each future lesson.
+- `docs/troubleshooting.md`: shared setup and browser-loading troubleshooting notes.
+
+There are no `lessons/` or `examples/` directories yet. When those directories
+are added, treat each lesson README as the source of truth for its required
+toolchain and run commands.
+
 ## Who This Repo Is For
 
 - Learners who want step-by-step WebAssembly examples.
